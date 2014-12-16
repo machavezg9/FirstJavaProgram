@@ -20,7 +20,7 @@ public class LotteryScanner {
         int draw = 0, day = 0, year = 0, firNum = 0, secNum = 0, thNum = 0, forNum = 0, fifNum = 0, power = 0;
         
         try {
-            BufferedReader br = new BufferedReader(new FileReader("Name.txt"));
+            BufferedReader br = new BufferedReader(new FileReader("PowerBall.txt"));
             String line = br.readLine();
             
             //While needs to be removed and line needs to be defined above to read only the first line
