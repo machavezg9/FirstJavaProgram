@@ -10,5 +10,6 @@ This program is my starting point in programming, the goal is to create a progra
 <br>1. Pull data and scan for results from lottery server txt file. <bold>75%</bold>
 <br>2. Capitalize the outputs first letters using apache or a loop. <bold>0%</bold>
 <br>3. Convert code to utilize a UI. <bold>10%</bold>
+<br>4. Create a trend to randomize numbers for choosing lottery numbers by statistical data. <bold>0%</bold>
 </body>
 </html>
