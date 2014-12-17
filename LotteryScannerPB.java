@@ -21,7 +21,6 @@ class LotteryScannerPB {
             for (int i = 1; i <= 5; i++){
                 br.readLine();
             }
-            //Switch from one tring to read all the lines or the second to read only the top most line
             String line = br.readLine();
                 String tmp[] = line.split("[ ., ]+");
                 draw = Integer.parseInt(tmp[0]);
