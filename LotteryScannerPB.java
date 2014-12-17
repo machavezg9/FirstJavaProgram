@@ -6,25 +6,26 @@
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
-import java.util.Arrays;
 
 /**
  *
  * @author darthmaul
  */
-public class LotteryScanner {
-
-    public static void main(String[] args) {
-        
+class LotteryScannerPB {        
         String date = "", month = "";
-        int draw = 0, day = 0, year = 0, firNum = 0, secNum = 0, thNum = 0, forNum = 0, fifNum = 0, power = 0;
-        
+        int draw, day, year, firNum, secNum, thNum, forNum, fifNum, power;
+        public LotteryScannerPB() {
         try {
-            BufferedReader br = new BufferedReader(new FileReader("PowerBall.txt"));
+            BufferedReader br = new BufferedReader(new FileReader("powerball.txt"));
+            // Used to skip the first 5 lines of unnecessary text
+            for (int i = 1; i <= 5; i++){
+                br.readLine();
+            }
+            //Switch from one tring to read all the lines or the second to read only the top most line
+            //String line = null;
             String line = br.readLine();
-            
             //While needs to be removed and line needs to be defined above to read only the first line
-            while ((line = br.readLine()) != null) {
+            //while ((line = br.readLine()) != null) {
                 String tmp[] = line.split("[ ., ]+");
                 draw = Integer.parseInt(tmp[0]);
                 date = tmp[1]; month = tmp[2]; 
@@ -36,10 +37,11 @@ public class LotteryScanner {
                 //for (int i = 5; i < 8; i++) {
                 //    nums = Integer.parseInt(tmp[i]);
                 //}
-                
-                System.out.print(draw + "\t" + date + ".\t" + month + "\t" + day + ",\t" + year + "\t" + firNum);
-                System.out.println("\t" + secNum + "\t" + thNum + "\t" + forNum + "\t" + fifNum + "\t" + power);
-            }
+                //System.out.println("Number 1\tNumber 2\tNumber 3\tNumber 4\tNumber 5\tPowerball");
+                //System.out.println(firNum + "\t\t" + secNum + "\t\t" + thNum + "\t\t" + forNum + "\t\t" + fifNum + "\t\t" + power);
+                //System.out.print(draw + "\t" + date + ".\t" + month + "\t" + day + ",\t" + year + "\t" + firNum);
+                //System.out.println("\t" + secNum + "\t" + thNum + "\t" + forNum + "\t" + fifNum + "\t" + power);
+            //}
             br.close();
         } catch (IOException e) {
             e.printStackTrace();
