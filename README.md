@@ -7,7 +7,8 @@ This program is my starting point in programming, the goal is to create a progra
 <br>The goal is to make a program with a user interface that asks the user to either generate lottery numbers or obtain results from winning lottery number and display them. The code is aimed to be used for the California Lottery, but will be written in a manner that it may accommodate to lottery results from any state. 
 
 <h1>To-do:</h1>
-<br>1. Pull data and scan for results from lottery server txt file. <bold>75%</bold>
+<br>1. Pull data and scan for results from lottery server txt file. <bold>100%</bold>
+  1.1 Need to format the scanner for Daily Derby
 <br>2. Capitalize the outputs first letters using apache or a loop. <bold>0%</bold>
 <br>3. Convert code to utilize a UI. <bold>10%</bold>
 <br>4. Create a trend to randomize numbers for choosing lottery numbers by statistical data. <bold>0%</bold>
