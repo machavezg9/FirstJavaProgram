@@ -8,7 +8,7 @@ This program is my starting point in programming, the goal is to create a progra
 
 <h1>To-do:</h1>
 <br>1. Pull data and scan for results from lottery server txt file. <bold>100%</bold>
-  1.1 Need to format the scanner for Daily Derby
+<br>  1.1 Need to format the scanner for Daily Derby
 <br>2. Capitalize the outputs first letters using apache or a loop. <bold>0%</bold>
 <br>3. Convert code to utilize a UI. <bold>10%</bold>
 <br>4. Create a trend to randomize numbers for choosing lottery numbers by statistical data. <bold>0%</bold>
