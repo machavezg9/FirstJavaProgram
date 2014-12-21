@@ -13,7 +13,7 @@ import java.io.IOException;
  */
 class LotteryScannerMM {        
         String date = "", month = "";
-        int draw, day, year, firNum, secNum, thNum, forNum, fifNum, power;
+        int draw, day, year, firNum, secNum, thNum, forNum, fifNum, mega;
         public LotteryScannerMM() {
         try {
             BufferedReader br = new BufferedReader(new FileReader("megamillions.txt"));
@@ -24,11 +24,12 @@ class LotteryScannerMM {
             String line = br.readLine();
                 String tmp[] = line.split("[ ., ]+");
                 draw = Integer.parseInt(tmp[0]);
-                date = tmp[1]; month = tmp[2]; 
+                date = tmp[1]; 
+                month = tmp[2]; 
                 day = Integer.parseInt(tmp[3]);
                 year = Integer.parseInt(tmp[4]);
                 firNum = Integer.parseInt(tmp[5]); secNum = Integer.parseInt(tmp[6]); thNum = Integer.parseInt(tmp[7]);
-                forNum = Integer.parseInt(tmp[8]); fifNum = Integer.parseInt(tmp[9]); power = Integer.parseInt(tmp[10]);
+                forNum = Integer.parseInt(tmp[8]); fifNum = Integer.parseInt(tmp[9]); mega = Integer.parseInt(tmp[10]);
             br.close();
         } catch (IOException e) {
             e.printStackTrace();
