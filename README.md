@@ -8,9 +8,9 @@ This program is my starting point in programming, the goal is to create a progra
 
 <h1>To-do:</h1>
 <br>1. Pull data and scan for results from lottery server txt file. <bold>100%</bold>
-<pre><del>1.1 Need to format the scanner for Daily Derby 0%</del>Forget This</pre>
+<pre><del>1.1 Need to format the scanner for Daily Derby 0%</del> Forget This</pre>
 <del><br>2. Capitalize the outputs first letters using apache or a loop. <bold>0%</bold></del> No need
-<br>3. Convert code to utilize a UI. <bold>10%</bold>
+<br>3. Convert code to utilize a UI. <bold>100%</bold>
 <br>4. Create a trend to randomize numbers for choosing lottery numbers by statistical data. <bold>0%</bold>
 </body>
 </html>
